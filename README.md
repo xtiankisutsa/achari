@@ -21,6 +21,7 @@ Achari is more of a PoC tool. I intend to work on the following features in due 
 * Ability to create a table of contents for the PDF document
 * Ability to convert multiple Keep Notes at a time
 * Add native support for OS X and Windows 
+* Develop achari into a KeepNote extension
 
 ##Credits
 These are the people who came up with the idea and assisted beta test the tool. 
@@ -28,4 +29,3 @@ These are the people who came up with the idea and assisted beta test the tool.
 * Gabby - [@_V1VI](https://twitter.com/_V1VI) - https://thevivi.net
 * Trune - [@truneski](https://twitter.com/truneski)
 * Ruby - [@doobie](https://twitter.com/___doobie___)
-

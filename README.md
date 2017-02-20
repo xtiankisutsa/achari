@@ -20,6 +20,7 @@ Achari is more of a PoC tool. I intend to work on the following features in due 
 * Ability to create a cover page on the PDF
 * Ability to create a table of contents for the PDF document
 * Ability to convert multiple Keep Notes at a time
+* Add native support for OS X and Windows 
 
 ##Credits
 These are the people who came up with the idea and assisted beta test the tool. 

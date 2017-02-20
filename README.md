@@ -10,4 +10,9 @@ sudo apt-get install openssl libssl-dev figlet
 In order to make use of Achari, your Keep Notes have to adhere to a strict folder structure. This is where all folders and subdolders **MUST** be preceeded with a numereical value in ascending order.The images below, illustrate the supported folder structure. 
 
 
+https://raw.githubusercontent.com/xtiankisutsa/achari/master/folder_structure/folders_1.png
+
+https://raw.githubusercontent.com/xtiankisutsa/achari/master/folder_structure/folders_2.png
+
+
 

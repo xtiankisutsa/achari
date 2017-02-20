@@ -8,7 +8,7 @@ Achari is a nifty tool that you can use to convert Keep notes in a specified fol
 * sudo apt-get install openssl libssl-dev figlet
 
 ###Folder structure
-In order to make use of Achari, your Keep Notes have to adhere to a strict folder structure. This is where all folders and subfolders **MUST** be preceded with a numerical value in ascending order.The images below, illustrate the supported folder structure. 
+In order to make use of Achari, your Keep Notes have to adhere to a strict folder structure. This is where all folder and subfolder names **MUST** be preceded with a numerical value in ascending order.The images below, illustrate the supported folder structure. 
 
 ![Folder structure 1 image] (https://raw.githubusercontent.com/xtiankisutsa/achari/master/images/folders_1.png)
 

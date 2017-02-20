@@ -2,7 +2,7 @@
 ![Achari help] (https://raw.githubusercontent.com/xtiankisutsa/achari/master/images/help.png)
 
 ## What is achari?
-Achari is a nifty tool that you can use to convert Keep notes in a specified folder into the PDF format.The tool is mostly in the PoC stage and hence cannot yet convert all notes in the main Keep Note folder into PDF. Achari is also capable of converting Keep Notes into a single image in PNG format. 
+Achari is a nifty tool that you can use to convert KeepNotes in a specified folder into the PDF format.The tool is mostly in the PoC stage and hence cannot yet convert all notes in the main KeepNote folder into PDF. Achari is also capable of converting Keep Notes into a single image in PNG format. 
 
 ### Installing dependencies
 * sudo apt-get install openssl libssl-dev figlet

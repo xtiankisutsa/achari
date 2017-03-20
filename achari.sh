@@ -1,8 +1,15 @@
 #!/bin/bash
 
 function logo(){
-	echo " "
-	echo "$(figlet -f doom Achari)"
+cat << "EOF"
+  ___       _                _ 
+ / _ \     | |              (_)
+/ /_\ \ ___| |__   __ _ _ __ _ 
+|  _  |/ __| '_ \ / _` | '__| |
+| | | | (__| | | | (_| | |  | |
+\_| |_/\___|_| |_|\__,_|_|  |_|   
+                                                                                              
+EOF
 	echo "Version: 0.1.0 beta"
 	echo "Developed by: Christian Kisutsa"
 	echo ""

@@ -108,10 +108,12 @@ page_files=`ls ../buffer/*.html | sort -V`
 
 #Generate the PDFs
 echo "[-]Generating shrinked PDF"
-./wkhtmltopdf -s Letter --title "$pdf_title" --footer-center [page] $page_files "$pdf_name"_small.pdf
+./wkhtmltopdf --page-size "A4" --title "$pdf_title" --footer-left "[doctitle]" --footer-right "[page]/[toPage]" --footer-line \
+        --header-center "[title]" --header-line $page_files "$pdf_name"_small.pdf
 echo " "
 echo "[-]Generating regular PDF"
-./wkhtmltopdf -s Letter --title "$pdf_title" --footer-center [page] --disable-smart-shrinking $page_files "$pdf_name"_large.pdf
+./wkhtmltopdf --page-size "A4" --title "$pdf_title" --footer-left "[doctitle]" --footer-right "[page]/[toPage]" --footer-line \
+        --header-center "[title]" --header-line $page_files --disable-smart-shrinking "$pdf_name"_large.pdf
 echo ""
 cd ../
 
@@ -137,7 +139,7 @@ read png_name
 echo ""
 
 echo "[-]Generating PNG"
-./wkhtmltoimage $2 "$png_name".png
+./wkhtmltoimage "$2" "$png_name".png
 
 fi
 

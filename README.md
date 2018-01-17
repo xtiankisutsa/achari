@@ -7,12 +7,18 @@ Achari is a nifty tool that you can use to convert KeepNotes in a specified fold
 ### Installing dependencies
 * sudo apt-get install openssl libssl-dev figlet
 
+### Configure permissions
+* chmod u+x achari/achari.sh
+* chmod u+x achari/tools/wkhtm*
+
 ### Folder structure
 In order to make use of Achari, your Keep Notes have to adhere to a strict folder structure. This is where all folder and subfolder names **MUST** be preceded with a numerical value in ascending order.The images below, illustrate the supported folder structure. 
 
 ![Folder structure 1 image](https://raw.githubusercontent.com/xtiankisutsa/achari/master/images/folders_1.png)
 
 ![Folder structure 2 image](https://raw.githubusercontent.com/xtiankisutsa/achari/master/images/folders_2.png)
+
+If you would like to read about my blog post on this tool, you can find it [here](http://www.shadowinfosec.io/2017/02/achari-converting-keepnotes-to-pdf-and.html)
 
 ## To do list
 Achari is more of a PoC tool. I intend to work on the following features in due time: 

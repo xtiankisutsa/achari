@@ -8,8 +8,8 @@ Achari is a nifty tool that you can use to convert KeepNotes in a specified fold
     sudo apt-get install openssl libssl-dev figlet
 
 ### Configure permissions
-* chmod u+x achari/achari.sh
-* chmod u+x achari/tools/wkhtml*
+    chmod u+x achari/achari.sh
+    chmod u+x achari/tools/wkhtml*
 
 ### Folder structure
 In order to make use of Achari, your Keep Notes have to adhere to a strict folder structure. This is where all folder and subfolder names **MUST** be preceded with a numerical value in ascending order.The images below, illustrate the supported folder structure. 

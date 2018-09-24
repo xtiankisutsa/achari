@@ -64,17 +64,12 @@ echo ""
 
 #Find the necessary html files
 echo "[-]Listing files to convert..."
-find $2 -name "page*" -type f -exec ls {} \; | sort -V
+find $2 -name "page*" -type f -exec ls {} \; | sort -V | tee buffer/pages.txt
 echo ""
 
 echo "[-]Listing images to convert..."
-find $2 -name "*png" -type f -exec ls {} \; | sort -V
-echo ""
-
-echo "[-]Dumping file locations..."
-find $2 -name "page*" -type f -exec ls {} \; | sort -V > buffer/pages.txt
-find $2 -name "*png" -type f -exec ls {} \; | sort -V > buffer/images.txt
-find $2 -name "*jpg" -type f -exec ls {} \; | sort -V >> buffer/images.txt
+find $2 -name "*png" -type f -exec ls {} \; | sort -V | tee buffer/images.txt
+find $2 -name "*jpg" -type f -exec ls {} \; | sort -V | tee -a buffer/images.txt
 echo ""
 
 files_no=`wc -l buffer/pages.txt | cut -d " " -f 1`
